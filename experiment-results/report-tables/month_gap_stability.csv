@@ -1,0 +1,2 @@
+run,feature_profile,model,rows_train,rows_valid,train_start,train_end,valid_start,valid_end,roc_auc,average_precision,brier,max_f1,best_threshold,train_seconds
+boosting_search_boundary_mcw20_n200_lr0_08_d6_b64-month-gap,baseline,boosting,354324,177162,86400,8745772,10438003,15811131,0.8922953097748393,0.4864158801424613,0.0873391635278644,0.4824290691886511,0.8420919605810702,3334.425378999993

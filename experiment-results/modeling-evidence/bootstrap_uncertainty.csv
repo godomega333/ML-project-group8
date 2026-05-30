@@ -1,0 +1,2 @@
+anchor,candidate,repeats,seed,n_rows,n_pos,n_neg,auc_delta_mean,auc_delta_low,auc_delta_high,ap_delta_mean,ap_delta_low,ap_delta_high,brier_delta_mean,brier_delta_low,brier_delta_high
+lr_anchor_score,boosting_search_boundary_mcw20_n200_lr0_08_d6_b64_score,1000,42,118108,4064,114044,0.0889429761335727,0.0835872681753219,0.0946175391275197,0.3489061305068559,0.337381663603523,0.3601573822030492,-0.0664347918989749,-0.0674291626837883,-0.0653512829445357

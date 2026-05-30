@@ -1,0 +1,1 @@
+model,iterations,last_iteration,best_valid_auc,best_valid_auc_iteration,last_valid_auc,min_valid_loss,min_valid_loss_iteration,last_valid_loss,last_train_loss,last_train_auc

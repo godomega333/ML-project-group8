@@ -1,0 +1,20 @@
+{
+  "load_seconds": 32.97933366597863,
+  "rows_test": 506691,
+  "rows_train": 590540,
+  "total_seconds": 18334.729494917003,
+  "train_seconds": 17915.74402808302,
+  "transform_seconds": 187.4614115000004,
+  "validation": {
+    "command": [
+      "/Users/noraalll/miniconda3/envs/mlw-project/bin/python",
+      "/Users/noraalll/Desktop/Machine Learning/2026s2-ml1001-group8-project/.worktrees/final-report-experiment-closure/scripts/validate_submission.py",
+      "--submission",
+      "outputs/experiments/submission-boosting_search_boundary_mcw20_n200_lr0_08_d6_b96/submission.unvalidated.csv",
+      "--sample",
+      "/Users/noraalll/Desktop/Machine Learning/2026s2-ml1001-group8-project/ieee-fraud-detection-dataset/sample_submission.csv"
+    ],
+    "ran": true,
+    "status": "pass"
+  }
+}

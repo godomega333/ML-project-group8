@@ -1,0 +1,3 @@
+run,feature_profile,model,roc_auc,average_precision,brier,max_f1,train_seconds
+member_b_boosting_search_boundary_mcw20_n200_lr0_08_d6_b64_final_oot,baseline,boosting,0.908976947519841,0.5149044120070007,0.0818488027024416,0.4993785388758459,6040.175318499998
+member_a_lr_l2_0_01_final_oot,baseline,lr,0.8201747783853697,0.1661527202313626,0.148279236701992,0.3006687990694969,15.67065137499594

@@ -1,0 +1,59 @@
+{
+  "acceptance_gates": {
+    "ablation_rows": 4,
+    "boosting_search_candidate_count": 36,
+    "kaggle_observed_rows_validated": true,
+    "lr_audit_candidate_count": 16,
+    "no_sample_rows": true
+  },
+  "inputs": {
+    "ablation_file": "outputs/experiments/diagnostics-ablation-2026-05-27/boosting_search_boundary_mcw20_n200_lr0_08_d6_b64/ablation_summary.csv",
+    "boosting_search_summary_file": "outputs/experiments/final-contenders-2026-05-27/boosting_search_summary.csv",
+    "bootstrap_file": "outputs/experiments/final-contenders-2026-05-27/bootstrap_uncertainty.csv",
+    "final_contenders_file": "outputs/experiments/final-contenders-2026-05-27/final-contenders.csv",
+    "kaggle_summary_file": "outputs/experiments/final-contenders-2026-05-27/kaggle_submission_summary.csv",
+    "lr_audit_summary_file": "outputs/experiments/final-contenders-2026-05-27/lr_audit_summary.csv",
+    "model_selection_file": "outputs/experiments/final-contenders-2026-05-27/model_selection_decision.csv"
+  },
+  "outputs": [
+    {
+      "name": "ablation_summary.csv",
+      "row_count": 4,
+      "sha256": "eaa91314680ee185b12625d72048e63a6377406565a4f2cc0706b8e7f9fb7338"
+    },
+    {
+      "name": "boosting_search_summary.csv",
+      "row_count": 36,
+      "sha256": "b4a49baa5f50a9f744f7224c3636a331232b6afe6eb371d70d34eb0ab909b092"
+    },
+    {
+      "name": "bootstrap_uncertainty.csv",
+      "row_count": 1,
+      "sha256": "61160c57647962261bf447a96e7618b90aec662d74492c8aafff3342c9f4d845"
+    },
+    {
+      "name": "final_contender_summary.csv",
+      "row_count": 6,
+      "sha256": "026523cdf1f8bed8b82d94a01eca58b45f0009d6d71d3ba1830e9ca51e7cdfc0"
+    },
+    {
+      "name": "kaggle_submission_summary.csv",
+      "row_count": 6,
+      "sha256": "0139a077ecbfad91bf7163c272b21392120b2e071b9ac7842a2fa3b067f51ad4"
+    },
+    {
+      "name": "lr_audit_summary.csv",
+      "row_count": 16,
+      "sha256": "a6f0c3e0fb8c2ca713bc699e548480b0477311d2638aa1c587b26e3540974fbc"
+    },
+    {
+      "name": "model_selection_decision.csv",
+      "row_count": 6,
+      "sha256": "c80805b624152627844e7be4c8b51753d89072dc037b8d416afaa64e63016310"
+    },
+    {
+      "name": "modeling_evidence_manifest.json",
+      "sha256": "fe742370bbf1a4fd7695d6a3ae7f71913b9f71f9dc44648ff336fa22af7f32ed"
+    }
+  ]
+}

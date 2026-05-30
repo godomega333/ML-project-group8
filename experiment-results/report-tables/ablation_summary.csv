@@ -1,0 +1,5 @@
+run,enabled_groups,model,roc_auc,average_precision,max_f1,train_seconds
+transaction_core,transaction_core,boosting,0.8318365501007071,0.2150156652534609,0.3037722703294516,557.4959525830054
+plus_counts_and_d,transaction_core+counts_and_d,boosting,0.906239917467274,0.4899286544582201,0.4836394948335247,634.7530059590063
+plus_m_and_v,transaction_core+counts_and_d+m_and_v,boosting,0.9092706139614716,0.5114114445221947,0.4965383550263085,5493.30878904101
+all_groups,transaction_core+counts_and_d+m_and_v+identity,boosting,0.908976947519841,0.5149044120070007,0.4998616874135546,4813.721253541997

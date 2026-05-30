@@ -1,0 +1,31 @@
+{
+  "command": "python experiments/make_submission.py --data-dir '/Users/noraalll/Desktop/Machine Learning/2026s2-ml1001-group8-project/ieee-fraud-detection-dataset' --output-dir outputs/experiments/submission-boosting_search_boundary_mcw10_n200_lr0_08_d6_b96 --config-id boosting_search_boundary_mcw10_n200_lr0_08_d6_b96 --source-run-dir handoff_runs/member_c/outputs_member_c/boosting_search_boundary_mcw10_n200_lr0_08_d6_b96",
+  "config_hash": "97b447fb23009a94",
+  "config_id": "boosting_search_boundary_mcw10_n200_lr0_08_d6_b96",
+  "data_dir": "/Users/noraalll/Desktop/Machine Learning/2026s2-ml1001-group8-project/ieee-fraud-detection-dataset",
+  "feature_profile": "baseline",
+  "model": "boosting",
+  "model_configs": {
+    "boosting": {
+      "colsample": 0.75,
+      "gamma": 0.0,
+      "l2": 1.0,
+      "learning_rate": 0.08,
+      "max_depth": 5,
+      "min_child_weight": 1.0,
+      "n_bins": 96,
+      "n_estimators": 200,
+      "subsample": 0.8
+    },
+    "lr": {
+      "batch_size": 2048,
+      "epochs": 12,
+      "l2": 0.05,
+      "learning_rate": 0.05,
+      "tolerance": 0.0
+    }
+  },
+  "output_dir": "outputs/experiments/submission-boosting_search_boundary_mcw10_n200_lr0_08_d6_b96",
+  "seed": 42,
+  "source_run_dir": "handoff_runs/member_c/outputs_member_c/boosting_search_boundary_mcw10_n200_lr0_08_d6_b96"
+}

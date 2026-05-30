@@ -1,0 +1,13 @@
+name: mlw-project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - pillow
+  - pip
+  - pip:
+      - kaggle

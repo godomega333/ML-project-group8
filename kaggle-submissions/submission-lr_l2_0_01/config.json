@@ -1,0 +1,31 @@
+{
+  "command": "python experiments/make_submission.py --data-dir '/Users/noraalll/Desktop/Machine Learning/2026s2-ml1001-group8-project/ieee-fraud-detection-dataset' --output-dir outputs/experiments/submission-lr_l2_0_01 --config-id lr_l2_0_01 --source-run-dir handoff_runs/member_a/outputs_member_a/lr_l2_0_01",
+  "config_hash": "bf6052202f9b027c",
+  "config_id": "lr_l2_0_01",
+  "data_dir": "/Users/noraalll/Desktop/Machine Learning/2026s2-ml1001-group8-project/ieee-fraud-detection-dataset",
+  "feature_profile": "baseline",
+  "model": "lr",
+  "model_configs": {
+    "boosting": {
+      "colsample": 0.75,
+      "gamma": 0.0,
+      "l2": 1.0,
+      "learning_rate": 0.08,
+      "max_depth": 5,
+      "min_child_weight": 1.0,
+      "n_bins": 96,
+      "n_estimators": 200,
+      "subsample": 0.8
+    },
+    "lr": {
+      "batch_size": 2048,
+      "epochs": 12,
+      "l2": 0.05,
+      "learning_rate": 0.05,
+      "tolerance": 0.0
+    }
+  },
+  "output_dir": "outputs/experiments/submission-lr_l2_0_01",
+  "seed": 42,
+  "source_run_dir": "handoff_runs/member_a/outputs_member_a/lr_l2_0_01"
+}

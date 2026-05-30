@@ -1,0 +1,50 @@
+{
+  "artifact_role": "submission",
+  "candidate_id": "lr_l2_0_01",
+  "command": "python experiments/make_submission.py --data-dir '/Users/noraalll/Desktop/Machine Learning/2026s2-ml1001-group8-project/ieee-fraud-detection-dataset' --output-dir outputs/experiments/submission-lr_l2_0_01 --config-id lr_l2_0_01 --source-run-dir handoff_runs/member_a/outputs_member_a/lr_l2_0_01",
+  "config": {
+    "class_weight_alpha": 1.0,
+    "config_id": "lr_l2_0_01",
+    "feature_profile": "baseline",
+    "model_family": "lr",
+    "notes": "LR regularization audit at l2=0.01.",
+    "params": {
+      "batch_size": 2048,
+      "epochs": 12,
+      "l2": 0.01,
+      "learning_rate": 0.05,
+      "tolerance": 0.0
+    },
+    "positive_weight": null
+  },
+  "config_hash": "bf6052202f9b027c",
+  "config_id": "lr_l2_0_01",
+  "created_at": "2026-05-28T17:07:01Z",
+  "extra": {
+    "rows_test": 506691,
+    "rows_train": 590540,
+    "validation": {
+      "command": [
+        "/Users/noraalll/miniconda3/envs/mlw-project/bin/python",
+        "/Users/noraalll/Desktop/Machine Learning/2026s2-ml1001-group8-project/.worktrees/final-report-experiment-closure/scripts/validate_submission.py",
+        "--submission",
+        "outputs/experiments/submission-lr_l2_0_01/submission.unvalidated.csv",
+        "--sample",
+        "/Users/noraalll/Desktop/Machine Learning/2026s2-ml1001-group8-project/ieee-fraud-detection-dataset/sample_submission.csv"
+      ],
+      "ran": true,
+      "status": "pass"
+    }
+  },
+  "feature_profile": "baseline",
+  "model_family": "lr",
+  "output_dir": "outputs/experiments/submission-lr_l2_0_01",
+  "sample_rows": null,
+  "schema_validation_status": "pass",
+  "schema_version": 1,
+  "source_run_dir": "handoff_runs/member_a/outputs_member_a/lr_l2_0_01",
+  "source_run_id": "member_a_lr_l2_0_01_final_oot_lr_l2_0_01_final_oot",
+  "split_policy": "final_oot",
+  "submission_artifact": "outputs/experiments/submission-lr_l2_0_01/submission.csv",
+  "train_seconds": 7933.420434165979
+}

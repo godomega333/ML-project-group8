@@ -1,0 +1,56 @@
+{
+  "artifact_role": "submission",
+  "candidate_id": "boosting_search_boundary_mcw10_n200_lr0_08_d6_b96",
+  "command": "python experiments/make_submission.py --data-dir '/Users/noraalll/Desktop/Machine Learning/2026s2-ml1001-group8-project/ieee-fraud-detection-dataset' --output-dir outputs/experiments/submission-boosting_search_boundary_mcw10_n200_lr0_08_d6_b96 --config-id boosting_search_boundary_mcw10_n200_lr0_08_d6_b96 --source-run-dir handoff_runs/member_c/outputs_member_c/boosting_search_boundary_mcw10_n200_lr0_08_d6_b96",
+  "config": {
+    "class_weight_alpha": null,
+    "config_id": "boosting_search_boundary_mcw10_n200_lr0_08_d6_b96",
+    "feature_profile": "baseline",
+    "model_family": "boosting",
+    "notes": "Boundary probe for depth, child weight, and histogram bins.",
+    "params": {
+      "colsample": 0.75,
+      "early_stopping_rounds": 25,
+      "gamma": 0.0,
+      "l2": 1.0,
+      "learning_rate": 0.08,
+      "max_depth": 6,
+      "min_child_weight": 10.0,
+      "min_delta": 0.0001,
+      "n_bins": 96,
+      "n_estimators": 200,
+      "subsample": 0.8
+    },
+    "positive_weight": "balanced"
+  },
+  "config_hash": "97b447fb23009a94",
+  "config_id": "boosting_search_boundary_mcw10_n200_lr0_08_d6_b96",
+  "created_at": "2026-05-28T19:54:12Z",
+  "extra": {
+    "rows_test": 506691,
+    "rows_train": 590540,
+    "validation": {
+      "command": [
+        "/Users/noraalll/miniconda3/envs/mlw-project/bin/python",
+        "/Users/noraalll/Desktop/Machine Learning/2026s2-ml1001-group8-project/.worktrees/final-report-experiment-closure/scripts/validate_submission.py",
+        "--submission",
+        "outputs/experiments/submission-boosting_search_boundary_mcw10_n200_lr0_08_d6_b96/submission.unvalidated.csv",
+        "--sample",
+        "/Users/noraalll/Desktop/Machine Learning/2026s2-ml1001-group8-project/ieee-fraud-detection-dataset/sample_submission.csv"
+      ],
+      "ran": true,
+      "status": "pass"
+    }
+  },
+  "feature_profile": "baseline",
+  "model_family": "boosting",
+  "output_dir": "outputs/experiments/submission-boosting_search_boundary_mcw10_n200_lr0_08_d6_b96",
+  "sample_rows": null,
+  "schema_validation_status": "pass",
+  "schema_version": 1,
+  "source_run_dir": "handoff_runs/member_c/outputs_member_c/boosting_search_boundary_mcw10_n200_lr0_08_d6_b96",
+  "source_run_id": "member_c_boosting_search_boundary_mcw10_n200_lr0_08_d6_b96_final_oot_boosting_search_boundary_mcw10_n200_lr0_08_d6_b96_final_oot",
+  "split_policy": "final_oot",
+  "submission_artifact": "outputs/experiments/submission-boosting_search_boundary_mcw10_n200_lr0_08_d6_b96/submission.csv",
+  "train_seconds": 17885.34338533299
+}
